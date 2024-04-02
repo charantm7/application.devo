@@ -9,7 +9,7 @@ def calculate_standard_deviation(variance):
 n=int(input("Enter the elements:"))
 numbers=0
 for i in range(n):
-    num=float(f"Enter the Numbers{i+1}:")
+    num=float(input(f"Enter the numbers {i+1}:"))
 numbers.append(num)
 mean=calculate_mean(numbers)
 variance=calculate_variance(numbers)
