@@ -1,7 +1,7 @@
 eligibility_criteria=int(input("Enter your current age:"))
 
 if (eligibility_criteria>=21 and eligibility_criteria<30):
-    print("you are having a eligibile for marragie")
+    print("you are having a eligibile for marragie ")
     height=int(input(f"Enter your height in cm between your eligibility criteria:"))
     if (eligibility_criteria>=21 and eligibility_criteria<=25 and height>=160 and height<170):
          print("and you get young and energitic girl to marry")
