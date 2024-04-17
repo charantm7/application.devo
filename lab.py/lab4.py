@@ -1,4 +1,4 @@
-def count_digit_frequency(number):
+def count_digit_frequency(numbers):
     digit_frequency={}
     for digit in number:
         if digit.isdigit():
