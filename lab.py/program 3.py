@@ -1,19 +1,16 @@
-# Develop a program to print student name, usn, marks of three subjects, total marks of three subjects, and percentage
-
 name = input("Enter the name of the student: ")
-usn = input("Enter the USN of the student: ")
-marks_sub1 = int(input("Enter the subject 1 marks: "))
-marks_sub2 = int(input("Enter the subject 2 marks: "))
-marks_sub3 = int(input("Enter the subject 3 marks: "))
-
-total_marks = marks_sub1 + marks_sub2 + marks_sub3
+usn = input("Enter the usn of the student: ").upper()
+sub1 = int(input("Enter the marks in subject 1: "))
+sub2 = int(input("Enter the marks in subject 2: "))
+sub3 = int(input("Enter the marks in subject 3: "))
+total_marks = sub1 + sub2 + sub3
 percentage = total_marks / 3
 
-print("Student details")
-print("Student Name:",name)
-print("student USN: ",usn)
-print("Subject 1 Marks: ",marks_sub1)
-print("Subject 2 Marks: ",marks_sub2)
-print("Subject 3 Marks: ",marks_sub3)
-print("Total Marks: ",total_marks)
-print("percentege: ",percentage)
+print("\\Student Details\\")
+print("Name:", name)
+print("USN:", usn)
+print("Subject 1 marks:", sub1)
+print("subject 2 marks:", sub2)
+print("subject 3 marks:", sub3)
+print("Total marks:", total_marks)
+print("Percentage:", percentage)
